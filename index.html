@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Stwórz stronę internetową wykorzystującą framework Bootstrap. Wykorzystaj do tego minimum 10 komponentów bootstrap oraz siatki "grid". -->
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Mountains</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div>
+                <nav class="navbar navbar-light bg-light">
+                    <div class="container-fluid">
+                        <span class="navbar-brand mb-0 h1">Mountains</span>
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class='col'>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class=" carousel-item">
+                            <img src="https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_960_720.jpg"
+                                class="d-block w-100" alt="panama">
+                        </div>
+                        <div class=" carousel-item">
+                            <img src="https://cdn.pixabay.com/photo/2022/04/11/09/32/glacier-7125359_960_720.jpg"
+                                class="d-block w-100" alt="panama">
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="https://cdn.pixabay.com/photo/2017/05/09/03/46/alberta-2297204_960_720.jpg"
+                                class="d-block w-100" alt="budapest">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row align-items-center mt-3">
+
+            <div class="col">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Accordion Item #1
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Lorem ipsum dolor sit amet
+                                    consectetur adipisicing elit.</strong> Saepe a quisquam, vel dolor laudantium aut ut
+                                optio
+                                mollitia quas reprehenderit ipsum in omnis autem quis ratione nulla esse fugit
+                                distinctio tempora enim voluptatibus. Dolores quae veritatis dolorum aliquid. Aperiam
+                                praesentium quo error molestiae, ratione provident quasi ipsam facere odit eos. Unde
+                                totam natus tenetur maxime officiis hic consectetur tempora saepe eius esse amet quidem,
+                                alias facere incidunt. Nesciunt, placeat? Tenetur, neque itaque fugiat, nobis repellat
+                                earum consectetur quae eos at temporibus accusantium, corrupti esse laudantium possimus
+                                voluptatem voluptates doloremque! At cupiditate aut fugit, doloribus corporis
+                                consectetur amet eligendi, atque rerum quas odit a dolorem voluptatum unde accusantium
+                                eos et beatae similique commodi! Sequi ad ipsa doloremque harum dicta illum error
+                                temporibus cum id nihil. Ut sapiente numquam facilis voluptates autem obcaecati cum
+                                exercitationem at debitis suscipit nobis fuga veniam expedita, itaque adipisci
+                                architecto iure alias dolorem possimus.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>At cupiditate aut fugit, doloribus corporis
+                                    consectetur amet eligendi.</strong> Voluptas eveniet ea porro,
+                                ipsam iure non, eum
+                                molestiae aliquid id amet numquam labore magnam nihil nobis sit libero exercitationem
+                                quasi ab facilis laboriosam, optio facere fugit nesciunt. Veritatis iure amet soluta
+                                dolor pariatur saepe iste officia, corporis aut! Deserunt labore similique, sed
+                                reiciendis neque obcaecati esse iure itaque provident rem nostrum autem!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Deserunt labore similique, sed
+                                    reiciendis neque obcaecati esse iure itaque provident rem nostrum autem!</strong>
+                                Quibusdam reiciendis aliquid omnis id deleniti corrupti eligendi aspernatur! Sapiente,
+                                numquam suscipit nesciunt dignissimos perferendis quod dolores, odit esse fugiat sit
+                                quis quisquam cumque praesentium consequuntur quos amet voluptate rem aliquam? Eius,
+                                magnam ea labore mollitia quas at accusantium debitis hic, quae molestias libero
+                                reiciendis aspernatur ipsa culpa architecto laudantium sit eos nisi aliquam est
+                                necessitatibus repellendus asperiores blanditiis dicta. Dolorem quibusdam, fugit
+                                obcaecati voluptas accusantium quaerat saepe illum et facere dolore ab labore quasi eum
+                                ipsum exercitationem velit voluptatem repellendus iusto reiciendis eaque! Ullam?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 ">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="https://cdn.pixabay.com/photo/2021/06/29/18/23/gentians-6374873_960_720.jpg"
+                            class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card" aria-hidden="true">
+                    <img src="https://cdn.pixabay.com/photo/2021/06/29/18/23/gentians-6374873_960_720.jpg"
+                        class="card-img-top" alt="blue">
+
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-md-center mt-5">
+            <div class="col-sm-4"> <img
+                    src="https://cdn.pixabay.com/photo/2021/06/29/18/18/gentians-6374867_960_720.jpg"
+                    class="img-fluid rounded" alt="flower"></div>
+            <div class="col-sm-8">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Col1</th>
+                            <th scope="col">Col2</th>
+                            <th scope="col">Col3</th>
+                            <th scope="col">Col4</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>Otto</td>
+                            <td>@Hello</td>
+                            <td>Row1</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@World</td>
+                            <td>Row2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td colspan="2">Bird</td>
+                            <td>@twitter</td>
+                            <td>Row3</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4</th>
+                            <td colspan="2">Larry the Bird</td>
+                            <td>@Hello</td>
+                            <td>Row4</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5</th>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@Hello</td>
+                            <td>Row5</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6</th>
+                            <td>John</td>
+                            <td>Snow</td>
+                            <td>@twitter</td>
+                            <td>Row6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="row">
+                <h3>Animals </h3>
+            </div>
+            <div class="row justify-content-md-center align-items-center mt-2">
+                <div class="col-sm-4">
+                    <figure class="figure">
+                        <img src="https://cdn.pixabay.com/photo/2017/08/12/17/11/roe-deer-2634729_960_720.jpg"
+                            class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption text-end">A caption for the above image.</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-4">
+                    <figure class="figure">
+                        <img src="https://cdn.pixabay.com/photo/2013/06/29/21/18/wolf-142173_960_720.jpg"
+                            class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption text-end">A caption for the above image.</figcaption>
+                    </figure>
+                </div>
+                <div class="col-sm-4">
+                    <figure class="figure">
+                        <img src="https://cdn.pixabay.com/photo/2016/12/05/11/39/fox-1883658_960_720.jpg"
+                            class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption text-end">A caption for the above image.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5 mb-2">
+            <h3 class='text-center'> Contact us </h3>
+        </div>
+        <div class="row justify-content-md-center  align-items-center">
+            <div class="col-sm-3 justify-content-md-center ">
+                <img src="https://cdn.pixabay.com/photo/2011/09/27/18/52/bird-9950_960_720.jpg"
+                    class="img-fluid rounded" alt="...">
+            </div>
+            <div class="col-sm-8">
+                <div class="mb-2 mt-2">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="form-check container">
+
+                    <div class="row justify-content-end">
+                        <div class="col">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Default checkbox
+                            </label>
+                        </div>
+                        <div class="col-sm-4 text-end">
+                            <button type="button" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row mt-5">
+            <nav class="navbar navbar-light bg-light align-items-center justify-content-md-center">
+                <div> © 2022 Mountains
+                </div>
+            </nav>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
